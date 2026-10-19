@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generated": "2026-10-19",
+  "notes": "Geometry/PBR exports. Runtime adds asphalt grain, Chinese sign canvases, sky shader, clouds, reflected mirrors and lighting. Campus export uses base profile; runtime uses session-transformed layout.",
+  "assets": [
+    {
+      "file": "c2-training-sedan.glb",
+      "bytes": 5846524,
+      "nodes": 64,
+      "meshes": 54,
+      "materials": 20,
+      "extensions": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_emissive_strength"
+      ],
+      "unit": "meter",
+      "forward": "+Z",
+      "origin": "rear axle center",
+      "source": "original procedural geometry; no third-party mesh/texture assets"
+    },
+    {
+      "file": "xiaoshan-reference-campus.glb",
+      "bytes": 1789732,
+      "nodes": 32,
+      "meshes": 27,
+      "materials": 25,
+      "extensions": [
+        "EXT_mesh_gpu_instancing",
+        "KHR_materials_emissive_strength"
+      ],
+      "unit": "meter",
+      "forward": "+Z",
+      "origin": "course coordinates",
+      "source": "original procedural geometry; no third-party mesh/texture assets"
+    }
+  ]
+}
